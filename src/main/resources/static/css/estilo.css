@@ -1,0 +1,7 @@
+.atividade{
+  /*float:left;*/
+  display:inline-block;
+  width: 100px;
+  height: 200px;
+  margin: 10px 20px;
+}
