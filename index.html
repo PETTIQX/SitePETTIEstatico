@@ -11,7 +11,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/estilo.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <script src="https://use.fontawesome.com/2468e00924.js"></script>
 </head>
 
@@ -265,21 +265,7 @@
     <script src="js/init.js"></script>
 
     <script>
-    	// Feature discover animation
-    	//$('.tap-target').tapTarget('open');
-
-        // DropDown Animação
-        $('.dropdown-button').dropdown({
-            inDuration: 300,
-            outDuration: 190,
-            constrainWidth: false, // Does not change width of dropdown to that of the activator
-            hover: true, // Activate on hover
-            gutter: 0, // Spacing from edge
-            belowOrigin: false, // Displays dropdown below the button
-            alignment: 'left', // Displays dropdown with edge aligned to the left of button
-            stopPropagation: false // Stops event propagation
-        });
-
+    	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
         //Diz para o navegador o que será carregado no momento em que a página é acessada.
         jQuery("document").ready(function($) {
@@ -300,6 +286,7 @@
 
         // Botão responsivo do menu
         $(".button-collapse").sideNav();
+
 
     </script>
 
